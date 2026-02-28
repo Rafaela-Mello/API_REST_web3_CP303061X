@@ -8,13 +8,9 @@ Projeto baseado em arquitetura de microsserviços, composto por três domínios 
 🧾 Pedidos
 
 Cada serviço possui:
-
 - Banco de dados próprio
-
 - API REST própria
-
 - Execução independente
-
 - Comunicação síncrona via HTTP (REST)
 
 # Instruções do Projeto
@@ -36,3 +32,5 @@ Cada serviço possui:
 4. Cada microsserviço roda em sua própria porta (definida no .env.example).
 
 5. Utilize o ThunderClient (extensão do VS Code) ou qualquer cliente HTTP (Postman, Insomnia) para testar os endpoints.
+
+6. OBS: Na pasta "tutorial" você encontrará um PDF com o passo a passo dos serviços "cliente" e "pedido".
